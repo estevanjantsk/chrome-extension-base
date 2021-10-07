@@ -16,5 +16,5 @@ module.exports = {
       path: path.resolve(__dirname, '..', './.env.development'),
     }),
   ],
-  devtool: 'eval-source-map',
+  devtool: 'cheap-module-source-map',
 };
